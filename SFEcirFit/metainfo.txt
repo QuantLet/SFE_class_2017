@@ -1,0 +1,22 @@
+
+Name of Quantlet: SFEcirFit
+
+Published in: Statistics of Financial Markets I
+
+Description: Generates OLS and ML estimates from data and simulates the underlying CIR process 
+
+Keywords: Black Scholes, Cox-Ingersoll-Ross process, geometric Brownian Motion, times series, stochastic process 
+
+Author: Thomas Bricke, Malte Leuschner
+
+Submitted:  2017/12/19
+
+Input :
+- y : interest values
+- start : start date
+- end : end date
+- dt : time steps (default 1/256)
+- correction : fix negativ interest rates if needed (default 40 Bp)
+ 
+Output:  A plot of the simulated CIR process based on estimated parameters
+
