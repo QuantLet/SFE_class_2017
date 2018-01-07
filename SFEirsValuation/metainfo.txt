@@ -1,4 +1,4 @@
-Name of Quantlet:   IRS_Valuation
+Name of Quantlet:   SFEirsValuation
 
 Published in:       'Statistics of Financial Markets 1 - Student Project - Compare the three different ways to value an IRS'
 
