@@ -1,6 +1,6 @@
 library(stats4)
 library(quantmod)
-library(sde)
+library(sde)  ## Only for Simulation
 
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -56,7 +56,8 @@ estimateCIR_ML <- function(y, start_a, start_b, start_sigma, dt = 1/256, seed = 
 #################
 
 # read data points
-#y <- read.csv(file = "eonia_clean.csv")
+y <- read.csv(file = "eonia_clean.csv")
+#y <- read.csv(file = "3Meuribor_clean.csv")
 
 # time horizon
 start <- match("1999-01-04", y$Date)
@@ -65,9 +66,9 @@ y <- y[start:end, 2]
 
 OLSestimates <- estimateCIR_OLS(y, correction = 0)
 MLestimates <- estimateCIR_ML(y, 
-                               start_a = OLSestimates1[2], 
-                               start_b = OLSestimates1[1], 
-                               start_sigma = OLSestimates1[3], 
+                               start_a = OLSestimates[2], 
+                               start_b = OLSestimates[1], 
+                               start_sigma = OLSestimates[3], 
                                correction = 0)
 
 
@@ -76,8 +77,5 @@ MLestimates <- estimateCIR_ML(y,
 ##################
 
 set.seed(42)
-sde.sim(X0=y[1], theta=c(MLestimates1[1], MLestimates1[2], MLestimates1[3]), model="CIR", N=256) -> X1
-set.seed(42)
-sde.sim(X0=y[1], theta=c(MLestimates2[1], MLestimates2[2], MLestimates2[3]), model="CIR", N=length(y)) -> X2
+sde.sim(X0=y[1], theta=c(MLestimates[1], MLestimates[2], MLestimates[3]), model="CIR", N=256) -> X1
 plot(X1, main="Cox-Ingersoll-Ross")
-plot(X2, main="Cox-Ingersoll-Ross")
