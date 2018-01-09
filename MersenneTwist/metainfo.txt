@@ -1,0 +1,13 @@
+Name of Quantlet:  MERSENNE_TWIST
+ 
+Published in:      SFM I
+  
+Description:       Demonstration of mersenne twister in Python framework for random number generation
+ 
+Keywords:          normal-distribution, plot, random, random-number-generation, simulation
+
+Author:            Alisa Kolesnikova, Ramona Ottow
+  
+Submitted:         January 3 2018 by Alisa Kolesnikova
+  
+Datafile:          no datafile needed
