@@ -1,0 +1,19 @@
+Name of Quantlet: SFEWNSimu
+
+Published in: Statistics of Financial Markets I
+
+Description: Investigates time series of white noise
+
+Keywords: time series, white noise, WN, TS, stationarity, python
+
+Author: Bharathi Srinivasan, David Berscheid 
+
+Submitted:  2018/01/11
+
+Input:
+- randser: random series drawn from a normal distribution
+- start: start date of time series
+- end: end date of time series
+- lag: number of lags displayed in the ACF and PACF plot
+ 
+Output:  A plot of the time series, plots of the autocorrelation function and the partial autocorrelation function, QQ plot, probability plot
