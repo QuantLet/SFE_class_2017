@@ -1,0 +1,16 @@
+Name of Quantlet: SFEqmle
+
+Published in: Statistics of Financial Markets
+
+Description: 'Monte Carlo simulation results of a QML estimation of an ARCH(1) model'
+
+Keywords: monte carlo simulation, qml estimation, arch(1), simulated ARCH(1) process, estimation of ARCH(1)
+
+Author: Paulina Kurowska, Wang Bingling
+
+Submitted:  Mon, January 08 2018 by Paulina Kurowska
+
+Example: 
+- 1: simulated ARCH(1) process
+- 2: PACF of ARCH(1)
+- 3: QQ-Plot of standardized residuals of ARCH(1) process
