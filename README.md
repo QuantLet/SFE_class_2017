@@ -1,2 +1,2 @@
-# SFE_class_2017
-Codes contributed by students in the SFE class WiSe 2017/2018
+# SFM_project
+Monte Carlo simulation of a QML estimation of an ARCH(1) model
