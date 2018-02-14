@@ -1,10 +1,10 @@
-Name of Quantlet:  SFEMERSENNE_TWIST
+Name of Quantlet:  SFEMersenneTwist
  
 Published in:      SFM I
   
-Description:       Demonstration of mersenne twister in Python framework for random number generation
+Description:       Demonstrates Mersenne-Twister in Python framework for random number generation
  
-Keywords:          normal-distribution, plot, random, random-number-generation, simulation
+Keywords:          ‘normal-distribution, plot, random, random-number-generation, simulation’
 
 Author:            Alisa Kolesnikova, Ramona Ottow
   

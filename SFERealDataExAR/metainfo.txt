@@ -8,7 +8,7 @@ Keywords: time series, AR, autoregressive model, real data, financial data, pyth
 
 Author: Bharathi Srinivasan, David Berscheid 
 
-Submitted:  2018/01/11
+Submitted:  11th of January 2018
 
 Input :
 - y : time series
