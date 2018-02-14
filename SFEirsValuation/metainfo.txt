@@ -1,6 +1,6 @@
 Name of Quantlet:   SFEirsValuation
 
-Published in:       'Statistics of Financial Markets 1 - Student Project - Compare the three different ways to value an IRS'
+Published in:       Statistics of Financial Markets 1
 
 Description:        Calculates the value of an IRS based on a Bond, FRA and Forward Rate approach.
 

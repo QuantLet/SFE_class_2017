@@ -9,7 +9,7 @@ Keywords: Black Scholes, Cox-Ingersoll-Ross process, geometric Brownian Motion, 
 
 Author: Thomas Bricke, Malte Leuschner
 
-Submitted:  2017/12/19
+Submitted:  Tue, 19th of December 2017
 
 Input :
 - y : interest values

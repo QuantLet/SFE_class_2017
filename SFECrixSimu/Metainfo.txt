@@ -2,7 +2,7 @@ Name of Quantlet:  SFECrixSimu
  
 Published in:      Statistics of Financial Markets I
   
-Description:       Simulation of Crix log return by using a model of Stochastic Volatilty with Correlated Jumps (SVCJ).
+Description:       Simulates Crix log return by using a model of Stochastic Volatility with Correlated Jumps (SVCJ).
  
 Keywords:          Crix, SVCJ, Log Return, Cryptocurrency, Jumps, Volatility
 

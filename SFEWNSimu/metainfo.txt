@@ -1,18 +1,17 @@
-Name of Quantlet: SFERWSimu
+Name of Quantlet: SFEWNSimu
 
 Published in: Statistics of Financial Markets I
 
-Description: Investigates time series of a random walk
+Description: Investigates time series of white noise
 
-Keywords: time series, random walk, RW, TS, first difference, non stationarity, python
+Keywords: time series, white noise, WN, TS, stationarity, python
 
 Author: Bharathi Srinivasan, David Berscheid 
 
-Submitted:  2018/01/11
+Submitted:  11th of January 2018
 
 Input:
-- x : random sequence
-- n_samples: number of observations
+- randser: random series drawn from a normal distribution
 - start: start date of time series
 - end: end date of time series
 - lag: number of lags displayed in the ACF and PACF plot
