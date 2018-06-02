@@ -1,4 +1,4 @@
-Name of Quantlet: RealDataExMA
+Name of Quantlet: SFERealDataExMA
 
 Published in: Statistics of Financial Markets I
 

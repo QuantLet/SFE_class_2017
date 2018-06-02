@@ -1,4 +1,4 @@
-Name of Quantlet:  SFEMersenneTwist
+﻿Name of Quantlet:  SFEmersenne_twist
  
 Published in:      SFM I
   

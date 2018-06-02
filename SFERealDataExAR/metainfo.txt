@@ -1,4 +1,4 @@
-Name of Quantlet: RealDataExAR
+Name of Quantlet: SFERealDataExAR
 
 Published in: Statistics of Financial Markets I
 
