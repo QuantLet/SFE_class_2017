@@ -23,7 +23,7 @@ Input:  	   Parameters according to MCMC (Markov Chain Monte Carlo)
 Output:            Simulated SVCJ for Log Return of Crix  
 ```
 
-![Picture1](Contour QQ Plot (1 Simulation).jpeg)
+![Picture1]("Contour QQ Plot (1 Simulation).jpeg")
 
 ![Picture2](Contour QQ Plot (10 Simulations).jpeg)
 
