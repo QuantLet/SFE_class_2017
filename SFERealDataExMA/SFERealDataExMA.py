@@ -12,7 +12,7 @@ def MA3():
     import statsmodels.api as sm
     import scipy.stats as scs
     from arch import arch_model
-
+    from statsmodels.tsa.arima.model import ARIMA
     import matplotlib.pyplot as plt
     import matplotlib as mpl
     get_ipython().magic('matplotlib inline')
@@ -56,6 +56,6 @@ def MA3():
 
     max_lag = 30
     Y = lrets.SPY
-    mdl = smt.ARMA(Y, order=(0, 3)).fit(maxlag=max_lag, method='mle', trend='nc')
+    mdl = ARIMA(Y, order=(0, 0, 3)).fit()
     p(mdl.summary())
     _ = tsplot(mdl.resid, lags=max_lag)
