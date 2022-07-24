@@ -1,0 +1,11 @@
+Name of QuantLet: SOI
+
+Published in: Statistics of Financial Markets 1
+
+Description: Visualise the SOI index and its periodogram
+
+Keywords: Periodogram, Spectrogram, Spectral Analysis, Fourier transform
+
+Author: Francis Liu
+
+Submitted: Tuesday, Jul 10 2022 by Francis Liu
